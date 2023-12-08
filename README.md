@@ -24,7 +24,7 @@ Welcome to the fun world of Tic Tac Toe! This is a simple web-based game where t
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/tic-tac-toe.git`
+1. Clone the repository: `git clone https://github.com/King4584/tic-tac-toe.git`
 2. Open `index.html` in your preferred browser.
 
 ## Contributing
