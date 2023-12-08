@@ -1,5 +1,6 @@
 let btn=document.querySelectorAll(".gridBox");
 let reset=document.querySelector(".resetBtn");
+let winner=document.querySelector(".winner");
 let playerX = true;
 let winningCombination =[
     [0,1,2],[0,3,6],[0,4,8],[1,4,7],[2,5,8],[2,4,6],[3,4,5],[6,7,8]
@@ -32,15 +33,15 @@ const checkWinner= () =>{
 
         if (pos1val != "" && pos2val != "" && pos3val != ""){
             if(pos1val === pos2val && pos2val === pos3val){
-                console.log("Winner ", pos1val)
+                console.log("Winner ", pos1val);
+                let word =(pos1val=="X") ? 'Player 1' : 'Player 2';
+                winner.innerText=(word);
             }
         }
     }
 }
 
 btn.forEach((gridBox)=>{
-    
-
     reset.addEventListener("click",()=>{
     console.log("reset was clicked");
     gridBox.innerText="";
