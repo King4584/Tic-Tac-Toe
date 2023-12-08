@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(46, 133, 120, 0.788);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    font-size: 4rem;
+}
+h1{
+    margin-top: 6dvh;
+    font-family: 'Roboto', sans-serif;
+}
+.gameBox{
+    /* height: 21rem; */
+    margin-top: 12px;
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+}
+.gridRow{
+    display: flex;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.56rem;
+}
+.font{
+    font-size: 4rem;
+    color: #644c4c;
+}
+.gridBox{
+    text-align: center;
+    font-family: '', sans-serif;
+    gap:0.56rem;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    background-color: #a4d456c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px rgba(0,0,1,0.7);
+}
+.resetBtn{
+    /* height: 5vh;
+    width: 15vw; */
+    margin-bottom: 5px;
+    padding: 2vh;
+    font-size: 3vw;
+    border-radius: 15px;
+    background-color: #cb89d725;
+}
